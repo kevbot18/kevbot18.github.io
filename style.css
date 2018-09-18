@@ -2,7 +2,14 @@ html * {
 	font-family: sans-serif;
 }
 
-#header * {
+#header h1 {
+	padding-left: 15px;
+	font-size: 1.5em;
+	color: #3498DB;
+	display: inline;
+}
+
+#header a, #header p {
 	display: inline;
 	font-size: 1.5em;
 	text-decoration: inherit;
@@ -11,7 +18,7 @@ html * {
 
 #nav {
 	list-style: none;
-	padding: 2px 0 40px 2px;
+	padding: 2px 0 40px 0;
 	background-image: linear-gradient(#fafafa, #eaeaea);
 	border-radius: 5px;
 	border: 1px solid #eaeaea;
@@ -32,8 +39,9 @@ html * {
 	color: black;
 }
 
-#main {
-	/*  */
+#main a {
+	display: block;
+	text-decoration: none;
 }
 
 #footer {}
