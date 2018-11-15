@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<!-- Consider renaming blog.html and placing in posts folder -->
+
 <head>
     <title>blog</title>
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -8,29 +8,29 @@
 </head>
 
 <body>
-    <div id="header">
-        <h1><a href="index.html">kevbot </a></h1>
-        <p>/</p><a href="./blog.html"> blog</a>
-    </div>
-    <br>
-    <div id="nav">
-        <a href=".">home</a>
-        <a href="blog.html">blog</a>
-        <a href="http://code.kevbot.me">code</a>
-    </div>
-    <div id="main">
+    <nav>
+        <!-- Navigation Menu -->
+        <a href="index.html"><img id="logo" src="img/fractured.svg" /> </a>
+        <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="blog.html">blog</a></li>
+            <li><a href="code.html">code</a></li>
+        </ul>
+    </nav>
+    <main>
         <!-- Recent Posts Will Preview Here -->
-        <a href="post/post1.html">
+        <a class="preview" href="post/post1.html">
             <h2>Loreum Ipsum</h2>
             <p>
-                In IT the phrases “de jure” and “de facto” are closely related to, although technically not identical to their direct definitions.
+                In IT the phrases “de jure” and “de facto” are closely related to, although technically not identical
+                to their direct definitions.
             </p>
         </a>
         <!-- Blog posts will go in posts folder -->
-    </div>
-    <div id="footer">
+    </main>
+    <footer>
         <!-- Footer -->
-    </div>
+    </footer>
 </body>
 
 </html>
